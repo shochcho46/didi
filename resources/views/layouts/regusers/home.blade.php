@@ -1,0 +1,2 @@
+ @include('layouts.normal.home')
+

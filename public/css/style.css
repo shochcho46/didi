@@ -1,0 +1,70 @@
+.custom-skin .side-nav .sidenav-bg.mask-strong:after,
+.custom-skin .side-nav .sidenav-bg:after {
+    background: #9933cc;
+}
+
+.didcolor {
+    background: #9933cc;
+}
+
+.navNewItemPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.custom-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active,
+.custom-skin.navbar .navbar-nav .nav-item .dropdown-menu a:focus,
+.custom-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover {
+    background: #9011cf;
+}
+
+.navNewItem {
+    padding: 0px 5px;
+    border: 2px solid #e5daeb;
+    background: #9933cc;
+    border-radius: 25em;
+}
+
+.force-scroll {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.picker__box .picker__header .picker__date-display {
+    display: flex;
+    justify-content: center;
+    padding-bottom: .3125rem;
+    font-weight: 400;
+    background-color: #9933cc;
+}
+
+.picker__box .picker__table .picker__day.picker__day--today {
+    color: #fdfdfd;
+    /* height: 25px;
+    width: 25px; */
+    border-radius: 50%;
+    padding: 2px 0px;
+    background-color: #aa62ce;
+}
+
+.picker__box .picker__table .picker--focused,
+.picker__box .picker__table .picker__day--selected,
+.picker__box .picker__table .picker__day--selected:hover {
+    background-color: #9933cc;
+    border-radius: 50%;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    transform: scale(.9);
+}
+
+.purple-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #9933cc;
+    box-shadow: 0 1px 0 0 #9933cc;
+}
+
+.active-purple-textarea.md-form label.active {
+    color: #9933cc;
+}
+
+.active-purple-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #9933cc;
+}
